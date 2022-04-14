@@ -1,0 +1,182 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 23, 2020, 4:47:57 a.m.
+    Author     : cielestrial
+*/
+
+/* align safety */
+body {
+    text-align: center;
+    font-size: 100%;
+    font-family: Veranda, Helvectica, Geneva, Arial, sans-serif;
+    background-color: black;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    color: #ccffff;
+    margin-left: 25px;
+    margin-right: auto;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    font-weight: bold;
+    color: blanchedalmond;
+    text-decoration: none;
+    border-radius: 1em;
+}
+
+li a:hover {
+    color: #ccffff;
+    background-color: #333333;
+}
+
+li .not-button {
+    font-weight: bold;
+    color: blanchedalmond;
+    text-decoration: none;
+    border-radius: 1em;
+    background: none;
+    border-style: ridge;
+    border-color: rgba(255, 235, 205, 0.15);
+    border-radius: 2em;
+}
+
+li .not-button:hover {
+    color: #ccffff;
+    background-color: #333333;
+}
+
+.active {
+    color: #ccffff;
+}
+
+/* table */
+#SurveyForm table.placement {
+    width: 75vw;
+    height: auto;
+    margin: auto auto 3vw;
+}
+
+/* table title */
+#SurveyTable caption {
+    display: table-caption;
+    text-align: center;
+    caption-side: top;
+    font-weight: bold;
+    font-size: calc(16px + 0.625vw);
+    color: beige;
+    margin: 25px auto 2.5vh;
+}
+
+
+/* cells */
+#SurveyTable td {
+    font-weight: bold;
+    max-width: 25em;
+}
+
+#SurveyTable .custom-radio td:nth-child(1) {
+    text-align: right;
+}
+
+#SurveyTable .custom-radio td:nth-child(2) {
+    text-align: left;
+}
+
+/* 2,4,6 columns */
+#SurveyTable td:nth-child(even) {
+    background-color: #cccccc;
+    color: black;
+}
+
+/* 3,5 columns */
+#SurveyTable td:nth-child(odd):not(:first-child) {
+    background-color: #666666;
+    color: floralwhite;
+}
+
+#SurveyTable td:first-child {
+    background-color: #cccccc;
+    color: black;
+}
+
+#welcome {    
+    color: bisque;
+    width: 45vw;
+    height: 7.5vh;
+    margin: 2em auto 0;
+    font-style: italic;
+}
+
+p {
+    font-size: calc(20px + 0.125vw);
+    color: beige;
+    width: 50vw;
+    height: auto;
+    margin: 1em auto;
+    text-align: left;
+}
+
+#graphsP {
+    margin: 1em auto;
+    text-align: center;
+}
+
+#warning {
+    color: #ccffff;
+}
+
+canvas {
+    background-color: white;
+    width: 50vw;
+    height: 37.5vw;
+    margin: auto;
+}
+
+#textArea {
+    min-width: 400px;
+    width: 50vw;    
+    height: auto;
+    margin: auto auto 5vh;
+    background-color: beige;
+}
+
+#submitButton {
+    min-width: 75px;
+    margin: auto auto 2em auto;
+    font-weight: bold;
+}
+
+#formFile {
+    border:hidden;
+    background-color: black;
+    min-width: 100px;
+    width: 17.5vw;    
+    height: auto;
+    color: #cccccc;
+    margin: 10vh auto;
+}
+
+#book {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    border-style: dashed;
+    color: rgba(204, 255, 255, 0.5);
+    border-color: rgba(204, 255, 255, 0.5);
+    text-decoration: none;
+}
+
