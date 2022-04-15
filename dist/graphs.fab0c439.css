@@ -1,0 +1,165 @@
+body {
+  text-align: center;
+  background-color: #000;
+  font-family: Veranda, Helvectica, Geneva, Arial, sans-serif;
+  font-size: 100%;
+}
+
+.navbar-brand {
+  color: #cff;
+  margin-left: 25px;
+  margin-right: auto;
+  font-weight: bold;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  color: #ffebcd;
+  border-radius: 1em;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+li a:hover {
+  color: #cff;
+  background-color: #333;
+}
+
+li .not-button {
+  color: #ffebcd;
+  background: none;
+  border-style: ridge;
+  border-color: #ffebcd26;
+  border-radius: 2em;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+li .not-button:hover {
+  color: #cff;
+  background-color: #333;
+}
+
+.active {
+  color: #cff;
+}
+
+#SurveyForm table.placement {
+  width: 75vw;
+  height: auto;
+  margin: auto auto 3vw;
+}
+
+#SurveyTable caption {
+  text-align: center;
+  caption-side: top;
+  color: beige;
+  margin: 25px auto 2.5vh;
+  font-size: calc(16px + .625vw);
+  font-weight: bold;
+  display: table-caption;
+}
+
+#SurveyTable td {
+  max-width: 25em;
+  font-weight: bold;
+}
+
+#SurveyTable .custom-radio td:nth-child(1) {
+  text-align: right;
+}
+
+#SurveyTable .custom-radio td:nth-child(2) {
+  text-align: left;
+}
+
+#SurveyTable td:nth-child(2n) {
+  color: #000;
+  background-color: #ccc;
+}
+
+#SurveyTable td:nth-child(2n+1):not(:first-child) {
+  color: #fffaf0;
+  background-color: #666;
+}
+
+#SurveyTable td:first-child {
+  color: #000;
+  background-color: #ccc;
+}
+
+#welcome {
+  color: bisque;
+  width: 45vw;
+  height: 7.5vh;
+  margin: 2em auto 0;
+  font-style: italic;
+}
+
+p {
+  color: beige;
+  width: 50vw;
+  height: auto;
+  text-align: left;
+  margin: 1em auto;
+  font-size: calc(20px + .125vw);
+}
+
+#graphsP {
+  text-align: center;
+  margin: 1em auto;
+}
+
+#warning {
+  color: #cff;
+}
+
+canvas {
+  width: 50vw;
+  height: 37.5vw;
+  background-color: #fff;
+  margin: auto;
+}
+
+#textArea {
+  min-width: 400px;
+  width: 50vw;
+  height: auto;
+  background-color: beige;
+  margin: auto auto 5vh;
+}
+
+#submitButton {
+  min-width: 75px;
+  margin: auto auto 2em;
+  font-weight: bold;
+}
+
+#formFile {
+  min-width: 100px;
+  width: 17.5vw;
+  height: auto;
+  color: #ccc;
+  background-color: #000;
+  border:  hidden;
+  margin: 10vh auto;
+}
+
+#book {
+  width: 100%;
+  text-align: center;
+  color: #ccffff80;
+  border-style: dashed;
+  border-color: #ccffff80;
+  text-decoration: none;
+  display: inline-block;
+}
+
+/*# sourceMappingURL=graphs.fab0c439.css.map */
