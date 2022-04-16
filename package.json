@@ -4,8 +4,8 @@
   "description": "Mood tracker based on the book \"Feeling Good\".",
   "private": true,
   "scripts": {
-    "start": "parcel pages/index.html",
-    "build": "parcel build pages/index.html",
+    "start": "parcel index.html",
+    "build": "parcel build index.html --public-url ./",
     "heroku-postbuild": "npm run build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
