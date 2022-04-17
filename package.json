@@ -1,31 +1,45 @@
 {
-  "name": "well-being-tracker",
-  "version": "1.0.0",
+  "name": "wb-tracker",
+  "version": "2.0.0",
   "description": "Mood tracker based on the book \"Feeling Good\".",
   "private": true,
   "scripts": {
-    "start": "parcel index.html",
-    "build": "parcel build index.html --public-url ./",
+    "start": "webpack-dev-server --config webpack.dev.js --mode development",
+    "build": "webpack --config webpack.prod.js --mode production",
+    "preview": "npm run build && http-server dist",
     "heroku-postbuild": "npm run build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "cielestrial",
   "license": "ISC",
   "dependencies": {
+    "-": "^0.0.1",
+    "@babel/cli": "^7.15.7",
+    "@babel/core": "^7.15.0",
     "@babel/polyfill": "^7.12.1",
+    "@babel/preset-env": "^7.15.6",
     "@popperjs/core": "^2.9.3",
+    "babel-loader": "^8.2.4",
+    "babel-plugin-lodash": "^3.3.4",
     "bootstrap": "^5.1.0",
     "chart.js": "^3.5.1",
     "core-js": "^3.16.4",
+    "file-loader": "^6.2.0",
     "file-saver": "^2.0.5",
+    "jquery": "^3.6.0",
     "just-clone": "^3.2.1",
-    "parcel": "^2.4.1",
-    "@babel/cli": "^7.15.7",
-    "@babel/core": "^7.15.0",
-    "@babel/preset-env": "^7.15.6",
-    "babel-plugin-lodash": "^3.3.4"
+    "normalize.css": "^8.0.1"
   },
   "devDependencies": {
-
+    "clean-webpack-plugin": "^4.0.0",
+    "css-loader": "^6.7.1",
+    "css-minimizer-webpack-plugin": "^3.4.1",
+    "html-webpack-link-type-plugin": "^1.1.1",
+    "html-webpack-plugin": "^5.5.0",
+    "http-server": "^14.1.0",
+    "mini-css-extract-plugin": "^2.6.0",
+    "webpack": "^5.72.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.8.1"
   }
 }

@@ -33,7 +33,7 @@
 89D:\NetBeans Projects\FeelingGoodHTML\node_modules\caniuse-lite\data\features\shadowdom.js132944587898052103 0
 56D:\NetBeans Projects\FeelingGoodHTML\node_modules\terser132944567077502042 1
 89D:\NetBeans Projects\FeelingGoodHTML\node_modules\core-js\features\symbol\has-instance.js121436361000000000 0
-58D:\NetBeans Projects\FeelingGoodHTML\depressionSurvey.html132945531486648313 0
+58D:\NetBeans Projects\FeelingGoodHTML\depressionSurvey.html132945544566328559 0
 95D:\NetBeans Projects\FeelingGoodHTML\node_modules\parcel\node_modules\chalk\source\templates.js132944567065005106 0
 87D:\NetBeans Projects\FeelingGoodHTML\node_modules\terser\node_modules\commander\typings132944567067648021 1
 112D:\NetBeans Projects\FeelingGoodHTML\node_modules\regenerate-unicode-properties\Script_Extensions\Pau_Cin_Hau.js121436361000000000 0
@@ -86,7 +86,7 @@
 71D:\NetBeans Projects\FeelingGoodHTML\node_modules\lodash\fp\overArgs.js121436361000000000 0
 101D:\NetBeans Projects\FeelingGoodHTML\node_modules\terser\node_modules\source-map\lib\binary-search.js132944567071926960 0
 78D:\NetBeans Projects\FeelingGoodHTML\node_modules\lodash\_strictLastIndexOf.js121436361000000000 0
-45D:\NetBeans Projects\FeelingGoodHTML\404.html132945532264615850 0
+45D:\NetBeans Projects\FeelingGoodHTML\404.html132945555454559371 0
 120D:\NetBeans Projects\FeelingGoodHTML\node_modules\@babel\helpers\node_modules\@babel\types\lib\modifications\inherits.js121012626000000000 0
 98D:\NetBeans Projects\FeelingGoodHTML\node_modules\@babel\plugin-syntax-nullish-coalescing-operator132396203524853714 1
 86D:\NetBeans Projects\FeelingGoodHTML\node_modules\@parcel\transformer-babel\src\jsx.js132944567072276041 0
@@ -166,7 +166,7 @@
 103D:\NetBeans Projects\FeelingGoodHTML\node_modules\@babel\polyfill\node_modules\core-js\fn\math\umulh.js121436361000000000 0
 95D:\NetBeans Projects\FeelingGoodHTML\node_modules\resolve\test\module_dir\ymodules\aaa\index.js121436361000000000 0
 83D:\NetBeans Projects\FeelingGoodHTML\node_modules\core-js\stable\string\iterator.js121436361000000000 0
-41D:\NetBeans Projects\FeelingGoodHTML\dist132945542910168718 1
+41D:\NetBeans Projects\FeelingGoodHTML\dist132945553279080661 1
 89D:\NetBeans Projects\FeelingGoodHTML\node_modules\core-js\es\array\virtual\copy-within.js121436361000000000 0
 60D:\NetBeans Projects\FeelingGoodHTML\node_modules\color-name132944561080052791 1
 88D:\NetBeans Projects\FeelingGoodHTML\node_modules\css-tree\lib\syntax\node\MediaQuery.js132944567079721195 0
@@ -260,7 +260,7 @@
 97D:\NetBeans Projects\FeelingGoodHTML\node_modules\regenerate-unicode-properties\Script\Makasar.js121436361000000000 0
 101D:\NetBeans Projects\FeelingGoodHTML\node_modules\msgpackr-extract\build\Release\msgpackr-extract.lib132944567138047931 0
 111D:\NetBeans Projects\FeelingGoodHTML\node_modules\regenerate-unicode-properties\Script_Extensions\Manichaean.js121436361000000000 0
-49D:\NetBeans Projects\FeelingGoodHTML\package.json132945535874524432 0
+49D:\NetBeans Projects\FeelingGoodHTML\package.json132945543497307516 0
 83D:\NetBeans Projects\FeelingGoodHTML\node_modules\@babel\core\lib\config\validation132749453384436596 1
 110D:\NetBeans Projects\FeelingGoodHTML\node_modules\@babel\helpers\node_modules\@babel\helper-get-function-arity132749453517701047 1
 76D:\NetBeans Projects\FeelingGoodHTML\node_modules\lodash\fp\isPlainObject.js121436361000000000 0
@@ -1344,7 +1344,7 @@
 68D:\NetBeans Projects\FeelingGoodHTML\node_modules\lodash\identity.js121436361000000000 0
 88D:\NetBeans Projects\FeelingGoodHTML\node_modules\chrome-trace-event\dist\trace-event.js132944567063039179 0
 60D:\NetBeans Projects\FeelingGoodHTML\node_modules\yaml\types132944567076075852 1
-63D:\NetBeans Projects\FeelingGoodHTML\dist\depressionSurvey.html132945542775813223 0
+63D:\NetBeans Projects\FeelingGoodHTML\dist\depressionSurvey.html132945553277933737 0
 67D:\NetBeans Projects\FeelingGoodHTML\node_modules\minimatch\LICENSE130764730660000000 0
 128D:\NetBeans Projects\FeelingGoodHTML\node_modules\@babel\polyfill\node_modules\core-js\library\fn\array\virtual\last-index-of.js121436361000000000 0
 120D:\NetBeans Projects\FeelingGoodHTML\node_modules\@babel\polyfill\node_modules\core-js\library\modules\es7.observable.js121436361000000000 0
@@ -1511,7 +1511,7 @@
 67D:\NetBeans Projects\FeelingGoodHTML\node_modules\@types\parse-json132944567065304284 1
 85D:\NetBeans Projects\FeelingGoodHTML\node_modules\yaml\browser\dist\legacy-exports.js132944567071607815 0
 71D:\NetBeans Projects\FeelingGoodHTML\node_modules\css-tree\node_modules132944567044478831 1
-64D:\NetBeans Projects\FeelingGoodHTML\dist\index.ab0485ab.css.map132945542909919383 0
+64D:\NetBeans Projects\FeelingGoodHTML\dist\index.ab0485ab.css.map132945553277455010 0
 108D:\NetBeans Projects\FeelingGoodHTML\node_modules\@babel\plugin-proposal-unicode-property-regex\lib\index.js121012626000000000 0
 80D:\NetBeans Projects\FeelingGoodHTML\node_modules\yaml\browser\dist\parse-cst.js132944567073353143 0
 127D:\NetBeans Projects\FeelingGoodHTML\node_modules\regenerate-unicode-properties\Binary_Property\Changes_When_NFKC_Casefolded.js121436361000000000 0
@@ -2669,7 +2669,7 @@
 65D:\NetBeans Projects\FeelingGoodHTML\node_modules\resolve\LICENSE121436361000000000 0
 69D:\NetBeans Projects\FeelingGoodHTML\node_modules\resolve\SECURITY.md121436361000000000 0
 67D:\NetBeans Projects\FeelingGoodHTML\node_modules\nan\nan_private.h132944567073412984 0
-53D:\NetBeans Projects\FeelingGoodHTML\dist\graphs.html132945542775813223 0
+53D:\NetBeans Projects\FeelingGoodHTML\dist\graphs.html132945553278651814 0
 72D:\NetBeans Projects\FeelingGoodHTML\node_modules\resolve\test\.eslintrc121436361000000000 0
 83D:\NetBeans Projects\FeelingGoodHTML\node_modules\css-tree\lib\syntax\pseudo\dir.js132944567076275316 0
 70D:\NetBeans Projects\FeelingGoodHTML\node_modules\lodash\fp\isError.js121436361000000000 0
@@ -4306,7 +4306,7 @@
 77D:\NetBeans Projects\FeelingGoodHTML\node_modules\core-js\es\array\entries.js121436361000000000 0
 68D:\NetBeans Projects\FeelingGoodHTML\node_modules\lodash\_baseSum.js121436361000000000 0
 79D:\NetBeans Projects\FeelingGoodHTML\node_modules\core-js\features\string\at.js121436361000000000 0
-64D:\NetBeans Projects\FeelingGoodHTML\dist\graphs.5bf28725.js.map132945542909939327 0
+64D:\NetBeans Projects\FeelingGoodHTML\dist\graphs.5bf28725.js.map132945553278901149 0
 77D:\NetBeans Projects\FeelingGoodHTML\node_modules\lodash\_basePropertyDeep.js121436361000000000 0
 72D:\NetBeans Projects\FeelingGoodHTML\node_modules\nth-check\package.json132944567066740446 0
 124D:\NetBeans Projects\FeelingGoodHTML\node_modules\@babel\polyfill\node_modules\core-js\library\fn\number\virtual\to-fixed.js121436361000000000 0
@@ -4557,7 +4557,7 @@
 87D:\NetBeans Projects\FeelingGoodHTML\node_modules\core-js\features\instance\group-by.js121436361000000000 0
 99D:\NetBeans Projects\FeelingGoodHTML\node_modules\htmlnano\lib\modules\minifyConditionalComments.js132944567072545304 0
 71D:\NetBeans Projects\FeelingGoodHTML\node_modules\color-name\.npmignore130800019150000000 0
-64D:\NetBeans Projects\FeelingGoodHTML\dist\graphs.4a563474.js.map132945542909939327 0
+64D:\NetBeans Projects\FeelingGoodHTML\dist\graphs.4a563474.js.map132945553277873920 0
 69D:\NetBeans Projects\FeelingGoodHTML\node_modules\lodash\castArray.js121436361000000000 0
 68D:\NetBeans Projects\FeelingGoodHTML\node_modules\lodash\fp\isMap.js121436361000000000 0
 92D:\NetBeans Projects\FeelingGoodHTML\node_modules\@popperjs\core\lib\utils\detectOverflow.js121436361000000000 0
@@ -5779,7 +5779,7 @@
 67D:\NetBeans Projects\FeelingGoodHTML\node_modules\lodash\fp\mean.js121436361000000000 0
 68D:\NetBeans Projects\FeelingGoodHTML\node_modules\lodash\fp\merge.js121436361000000000 0
 69D:\NetBeans Projects\FeelingGoodHTML\node_modules\lodash\fp\method.js121436361000000000 0
-64D:\NetBeans Projects\FeelingGoodHTML\dist\graphs.c087171d.js.map132945542909919383 0
+64D:\NetBeans Projects\FeelingGoodHTML\dist\graphs.c087171d.js.map132945553278242905 0
 64D:\NetBeans Projects\FeelingGoodHTML\node_modules\dotenv\LICENSE132944567065703213 0
 84D:\NetBeans Projects\FeelingGoodHTML\node_modules\bootstrap\dist\js\bootstrap.min.js121436361000000000 0
 116D:\NetBeans Projects\FeelingGoodHTML\node_modules\@babel\polyfill\node_modules\core-js\modules\es7.array.flat-map.js121436361000000000 0
@@ -7799,7 +7799,7 @@
 101D:\NetBeans Projects\FeelingGoodHTML\node_modules\@babel\runtime\helpers\esm\interopRequireDefault.js121012626000000000 0
 107D:\NetBeans Projects\FeelingGoodHTML\node_modules\@parcel\core\test\fixtures\config-node-pipeline\.parcelrc132944567067488423 0
 96D:\NetBeans Projects\FeelingGoodHTML\node_modules\core-js\modules\esnext.iterator.constructor.js121436361000000000 0
-64D:\NetBeans Projects\FeelingGoodHTML\dist\graphs.fd40e163.js.map132945542909929356 0
+64D:\NetBeans Projects\FeelingGoodHTML\dist\graphs.fd40e163.js.map132945553278911118 0
 89D:\NetBeans Projects\FeelingGoodHTML\node_modules\core-js\modules\esnext.iterator.drop.js121436361000000000 0
 89D:\NetBeans Projects\FeelingGoodHTML\node_modules\core-js\modules\esnext.iterator.from.js121436361000000000 0
 88D:\NetBeans Projects\FeelingGoodHTML\node_modules\core-js\modules\esnext.iterator.map.js121436361000000000 0
@@ -8110,7 +8110,7 @@
 94D:\NetBeans Projects\FeelingGoodHTML\node_modules\core-js\internals\typed-array-constructor.js121436361000000000 0
 120D:\NetBeans Projects\FeelingGoodHTML\node_modules\@babel\helpers\node_modules\@babel\generator\lib\generators\modules.js121012626000000000 0
 91D:\NetBeans Projects\FeelingGoodHTML\node_modules\bootstrap\scss\mixins\_text-truncate.scss121436361000000000 0
-64D:\NetBeans Projects\FeelingGoodHTML\dist\index.fab0c439.css.map132945542909719915 0
+64D:\NetBeans Projects\FeelingGoodHTML\dist\index.fab0c439.css.map132945553278562070 0
 112D:\NetBeans Projects\FeelingGoodHTML\node_modules\core-js\internals\typed-array-constructors-require-wrappers.js121436361000000000 0
 123D:\NetBeans Projects\FeelingGoodHTML\node_modules\@babel\core\node_modules\@babel\types\lib\validators\isValidIdentifier.js121012626000000000 0
 102D:\NetBeans Projects\FeelingGoodHTML\node_modules\core-js\internals\typed-array-species-constructor.js121436361000000000 0
@@ -8838,7 +8838,7 @@
 98D:\NetBeans Projects\FeelingGoodHTML\node_modules\@babel\plugin-transform-regenerator\lib\index.js121012626000000000 0
 73D:\NetBeans Projects\FeelingGoodHTML\node_modules\core-js\es\math\cosh.js121436361000000000 0
 74D:\NetBeans Projects\FeelingGoodHTML\node_modules\core-js\es\math\hypot.js121436361000000000 0
-47D:\NetBeans Projects\FeelingGoodHTML\js\main.js132944548699956690 0
+47D:\NetBeans Projects\FeelingGoodHTML\js\main.js132945553270623058 0
 131D:\NetBeans Projects\FeelingGoodHTML\node_modules\@babel\helpers\node_modules\@babel\types\lib\builders\flow\createFlowUnionType.js121012626000000000 0
 73D:\NetBeans Projects\FeelingGoodHTML\node_modules\core-js\es\math\imul.js121436361000000000 0
 74D:\NetBeans Projects\FeelingGoodHTML\node_modules\core-js\es\math\log1p.js121436361000000000 0
@@ -10122,7 +10122,7 @@
 89D:\NetBeans Projects\FeelingGoodHTML\node_modules\@popperjs\core\lib\modifiers\arrow.d.ts121436361000000000 0
 87D:\NetBeans Projects\FeelingGoodHTML\node_modules\@popperjs\core\lib\modifiers\arrow.js121436361000000000 0
 98D:\NetBeans Projects\FeelingGoodHTML\node_modules\@popperjs\core\lib\modifiers\eventListeners.d.ts121436361000000000 0
-60D:\NetBeans Projects\FeelingGoodHTML\dist\graphs.fd40e163.js132945542909719915 0
+60D:\NetBeans Projects\FeelingGoodHTML\dist\graphs.fd40e163.js132945553278861268 0
 101D:\NetBeans Projects\FeelingGoodHTML\node_modules\@popperjs\core\lib\modifiers\eventListeners.js.flow121436361000000000 0
 86D:\NetBeans Projects\FeelingGoodHTML\node_modules\@popperjs\core\lib\modifiers\flip.js121436361000000000 0
 88D:\NetBeans Projects\FeelingGoodHTML\node_modules\@popperjs\core\lib\modifiers\hide.d.ts121436361000000000 0
@@ -10507,7 +10507,7 @@
 84D:\NetBeans Projects\FeelingGoodHTML\node_modules\@parcel\core\src\resolveOptions.js132944567081386738 0
 83D:\NetBeans Projects\FeelingGoodHTML\node_modules\@parcel\runtime-react-refresh\src132944567064275856 1
 106D:\NetBeans Projects\FeelingGoodHTML\node_modules\@parcel\runtime-react-refresh\src\ReactRefreshRuntime.js132944567065064922 0
-60D:\NetBeans Projects\FeelingGoodHTML\dist\index.fab0c439.css132945542909709946 0
+60D:\NetBeans Projects\FeelingGoodHTML\dist\index.fab0c439.css132945553278562070 0
 106D:\NetBeans Projects\FeelingGoodHTML\node_modules\@parcel\runtime-react-refresh\lib\ReactRefreshRuntime.js132944567063537832 0
 81D:\NetBeans Projects\FeelingGoodHTML\node_modules\@parcel\runtime-js\package.json132944567076045951 0
 115D:\NetBeans Projects\FeelingGoodHTML\node_modules\@babel\polyfill\node_modules\core-js\library\fn\array\for-each.js121436361000000000 0
@@ -12835,7 +12835,7 @@
 103D:\NetBeans Projects\FeelingGoodHTML\node_modules\@babel\plugin-syntax-logical-assignment-operators\lib132749453384842593 1
 132D:\NetBeans Projects\FeelingGoodHTML\node_modules\@babel\helper-hoist-variables\node_modules\@babel\types\lib\validators\validate.js121012626000000000 0
 107D:\NetBeans Projects\FeelingGoodHTML\node_modules\@babel\plugin-syntax-logical-assignment-operators\LICENSE121436361000000000 0
-60D:\NetBeans Projects\FeelingGoodHTML\dist\graphs.fbb3188c.js132945542909719915 0
+60D:\NetBeans Projects\FeelingGoodHTML\dist\graphs.fbb3188c.js132945553278143185 0
 112D:\NetBeans Projects\FeelingGoodHTML\node_modules\@babel\plugin-syntax-logical-assignment-operators\package.json132749453512885350 0
 109D:\NetBeans Projects\FeelingGoodHTML\node_modules\@babel\plugin-syntax-logical-assignment-operators\README.md121436361000000000 0
 96D:\NetBeans Projects\FeelingGoodHTML\node_modules\@babel\plugin-syntax-json-strings\package.json132396203445230138 0
@@ -12970,7 +12970,7 @@
 122D:\NetBeans Projects\FeelingGoodHTML\node_modules\@babel\helpers\node_modules\@babel\types\lib\validators\isBlockScoped.js121012626000000000 0
 114D:\NetBeans Projects\FeelingGoodHTML\node_modules\@babel\helpers\node_modules\@babel\types\lib\validators\isLet.js121012626000000000 0
 126D:\NetBeans Projects\FeelingGoodHTML\node_modules\@babel\helpers\node_modules\@babel\types\lib\validators\isPlaceholderType.js121012626000000000 0
-60D:\NetBeans Projects\FeelingGoodHTML\dist\graphs.c087171d.js132945542909709946 0
+60D:\NetBeans Projects\FeelingGoodHTML\dist\graphs.c087171d.js132945553278133202 0
 116D:\NetBeans Projects\FeelingGoodHTML\node_modules\@babel\helpers\node_modules\@babel\types\lib\validators\isScope.js121012626000000000 0
 129D:\NetBeans Projects\FeelingGoodHTML\node_modules\@babel\helpers\node_modules\@babel\types\lib\validators\isValidES3Identifier.js121012626000000000 0
 126D:\NetBeans Projects\FeelingGoodHTML\node_modules\@babel\helpers\node_modules\@babel\types\lib\validators\isValidIdentifier.js121012626000000000 0
@@ -13278,7 +13278,7 @@
 149D:\NetBeans Projects\FeelingGoodHTML\node_modules\@babel\helper-replace-supers\node_modules\@babel\types\lib\builders\typescript\createTSUnionType.js121012626000000000 0
 140D:\NetBeans Projects\FeelingGoodHTML\node_modules\@babel\helper-replace-supers\node_modules\@babel\types\lib\builders\react\buildChildren.js121012626000000000 0
 145D:\NetBeans Projects\FeelingGoodHTML\node_modules\@babel\helper-replace-supers\node_modules\@babel\types\lib\builders\flow\createFlowUnionType.js121012626000000000 0
-60D:\NetBeans Projects\FeelingGoodHTML\dist\graphs.5bf28725.js132945542909719915 0
+60D:\NetBeans Projects\FeelingGoodHTML\dist\graphs.5bf28725.js132945553278861268 0
 128D:\NetBeans Projects\FeelingGoodHTML\node_modules\@babel\helper-replace-supers\node_modules\@babel\types\lib\ast-types\generated132749453398435301 1
 130D:\NetBeans Projects\FeelingGoodHTML\node_modules\@babel\helper-replace-supers\node_modules\@babel\types\lib\asserts\assertNode.js121012626000000000 0
 126D:\NetBeans Projects\FeelingGoodHTML\node_modules\@babel\helper-replace-supers\node_modules\@babel\types\lib\asserts\generated132749453397678601 1
@@ -13387,7 +13387,7 @@
 135D:\NetBeans Projects\FeelingGoodHTML\node_modules\@babel\helper-optimise-call-expression\node_modules\@babel\types\lib\utils\inherit.js121012626000000000 0
 130D:\NetBeans Projects\FeelingGoodHTML\node_modules\@babel\helper-optimise-call-expression\node_modules\@babel\types\lib\utils\react132749453404128882 1
 161D:\NetBeans Projects\FeelingGoodHTML\node_modules\@babel\helper-optimise-call-expression\node_modules\@babel\types\lib\utils\react\cleanJSXElementLiteralChild.js121012626000000000 0
-60D:\NetBeans Projects\FeelingGoodHTML\dist\graphs.4a563474.js132945542909719915 0
+60D:\NetBeans Projects\FeelingGoodHTML\dist\graphs.4a563474.js132945553277843996 0
 139D:\NetBeans Projects\FeelingGoodHTML\node_modules\@babel\helper-optimise-call-expression\node_modules\@babel\types\lib\traverse\traverse.js121012626000000000 0
 143D:\NetBeans Projects\FeelingGoodHTML\node_modules\@babel\helper-optimise-call-expression\node_modules\@babel\types\lib\traverse\traverseFast.js121012626000000000 0
 154D:\NetBeans Projects\FeelingGoodHTML\node_modules\@babel\helper-optimise-call-expression\node_modules\@babel\types\lib\retrievers\getBindingIdentifiers.js121012626000000000 0
@@ -14040,19 +14040,19 @@
 65D:\NetBeans Projects\FeelingGoodHTML\favicon_io\favicon-16x16.png132399741960000000 0
 59D:\NetBeans Projects\FeelingGoodHTML\favicon_io\favicon.ico132399741960000000 0
 64D:\NetBeans Projects\FeelingGoodHTML\favicon_io\site.webmanifest132399741960000000 0
-60D:\NetBeans Projects\FeelingGoodHTML\dist\anxietySurvey.html132945542775853142 0
+60D:\NetBeans Projects\FeelingGoodHTML\dist\anxietySurvey.html132945553279070698 0
 62D:\NetBeans Projects\FeelingGoodHTML\dist\favicon.62492175.ico132945542697103866 0
-62D:\NetBeans Projects\FeelingGoodHTML\dist\favicon.c9d4ab7f.ico132945542909709946 0
+62D:\NetBeans Projects\FeelingGoodHTML\dist\favicon.c9d4ab7f.ico132945553278073382 0
 60D:\NetBeans Projects\FeelingGoodHTML\dist\graphs.61e73785.js132945542776052634 0
-60D:\NetBeans Projects\FeelingGoodHTML\dist\graphs.65009b13.js132945542909709946 0
-64D:\NetBeans Projects\FeelingGoodHTML\dist\graphs.65009b13.js.map132945542909919383 0
+60D:\NetBeans Projects\FeelingGoodHTML\dist\graphs.65009b13.js132945553277843996 0
+64D:\NetBeans Projects\FeelingGoodHTML\dist\graphs.65009b13.js.map132945553277873920 0
 64D:\NetBeans Projects\FeelingGoodHTML\dist\graphs.79db84ee.js.map132945542775823203 0
 60D:\NetBeans Projects\FeelingGoodHTML\dist\graphs.bb1d461c.js132945542775823203 0
 64D:\NetBeans Projects\FeelingGoodHTML\dist\graphs.bb1d461c.js.map132945542776232106 0
-60D:\NetBeans Projects\FeelingGoodHTML\dist\graphs.f3780efa.js132945542909719915 0
-64D:\NetBeans Projects\FeelingGoodHTML\dist\graphs.f3780efa.js.map132945542909939327 0
-64D:\NetBeans Projects\FeelingGoodHTML\dist\graphs.fbb3188c.js.map132945542909949301 0
+60D:\NetBeans Projects\FeelingGoodHTML\dist\graphs.f3780efa.js132945553278143185 0
+64D:\NetBeans Projects\FeelingGoodHTML\dist\graphs.f3780efa.js.map132945553278242905 0
+64D:\NetBeans Projects\FeelingGoodHTML\dist\graphs.fbb3188c.js.map132945553278242905 0
 60D:\NetBeans Projects\FeelingGoodHTML\dist\index.9ef30a54.css132945542775823203 0
-60D:\NetBeans Projects\FeelingGoodHTML\dist\index.ab0485ab.css132945542909709946 0
+60D:\NetBeans Projects\FeelingGoodHTML\dist\index.ab0485ab.css132945553277415139 0
 64D:\NetBeans Projects\FeelingGoodHTML\dist\index.c47028de.css.map132945542776281986 0
-52D:\NetBeans Projects\FeelingGoodHTML\dist\index.html132945542775803250 0
+52D:\NetBeans Projects\FeelingGoodHTML\dist\index.html132945553279070698 0

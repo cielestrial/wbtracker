@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html lang="en-US">
+  <head>
+    <title>Graphs</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg bg-dark bg-gradient">
+      <div class="container-fluid" id="swappingNav">
+        <button
+          class="navbar-toggler navbar-dark"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navi"
+          aria-controls="navi"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <span class="navbar-brand my-auto h1" id="webName">WB Tracker</span>
+        <div class="collapse navbar-collapse swap" id="navi">
+          <ul class="nav-bar my-auto">
+            <li class="nav-item h5 my-auto">
+              <a class="nav-link" href="/">Home</a>
+            </li>
+            <li class="nav-item my-auto">
+              <a class="nav-link" href="depressionSurvey">Depression Survey</a>
+            </li>
+            <li class="nav-item my-auto">
+              <a class="nav-link" href="anxietySurvey">Anxiety Survey</a>
+            </li>
+            <li class="nav-item my-auto">
+              <input
+                type="button"
+                disabled
+                class="nav-link not-default active"
+                value="Graphs"
+              />
+            </li>
+          </ul>
+        </div>
+        <ul class="nav-bar my-auto swap">
+          <li class="nav-item">
+            <input
+              type="button"
+              class="nav-link my-auto h6 not-button"
+              onclick="clearLocalStorage()"
+              value="C"
+            />
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container-fluid">
+      <h2 id="welcome">Graphs</h2>
+      <p id="graphsP">
+        <span id="warning">Here</span>, you can see your survey results for the
+        current month.<br />
+        As well as, load the files you saved from months prior.<br />
+        <span id="warning">**Warning**</span>
+        Files that have been tampered with may not load.<br />
+      </p>
+      <form>
+        <input
+          class="form-control form-control-sm"
+          type="file"
+          id="formFile"
+          accept=".txt"
+          onchange="readDataFromFile()"
+        />
+      </form>
+    </div>
+  </body>
+</html>
