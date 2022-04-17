@@ -17,8 +17,8 @@ import "../css/lookandfeel.css";
 import "bootstrap/dist/js/bootstrap.min.js";
 
 import "core-js/stable";
-import Chart from "chart.js/auto";
 import "regenerator-runtime/runtime";
+import Chart from "chart.js/auto";
 import { saveAs } from "file-saver";
 import clone from "just-clone";
 

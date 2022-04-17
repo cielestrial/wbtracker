@@ -12,7 +12,7 @@ module.exports = {
     main: "./src/js/index.js"
   },
   output: {
-    filename: "[name].[hash:20].js",
+    filename: "[name].[fullhash:20].js",
     path: buildPath
   },
   module: {
@@ -45,25 +45,25 @@ module.exports = {
       filename: "index.html"
     }),
     new HtmlWebpackPlugin({
-      template: "./src/html/depressionSurvey/index.html",
+      template: "./src/html/depressionSurvey.html",
       favicon: "./favicon_io/favicon.ico",
       inject: "body",
       chunks: ["main"],
-      filename: "depressionSurvey/index.html"
+      filename: "depressionSurvey.html"
     }),
     new HtmlWebpackPlugin({
-      template: "./src/html/anxietySurvey/index.html",
+      template: "./src/html/anxietySurvey.html",
       favicon: "./favicon_io/favicon.ico",
       inject: "body",
       chunks: ["main"],
-      filename: "anxietySurvey/index.html"
+      filename: "anxietySurvey.html"
     }),
     new HtmlWebpackPlugin({
-      template: "./src/html/graphs/index.html",
+      template: "./src/html/graphs.html",
       favicon: "./favicon_io/favicon.ico",
       inject: "body",
       chunks: ["main"],
-      filename: "graphs/index.html"
+      filename: "graphs.html"
     }),
     new HtmlWebpackPlugin({
       template: "./src/html/404.html",

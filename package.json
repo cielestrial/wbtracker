@@ -1,5 +1,5 @@
 {
-  "name": "wb-tracker",
+  "name": "wbtracker",
   "version": "2.0.0",
   "description": "Mood tracker based on the book \"Feeling Good\".",
   "private": true,
@@ -16,18 +16,17 @@
     "-": "^0.0.1",
     "@babel/cli": "^7.15.7",
     "@babel/core": "^7.15.0",
-    "@babel/polyfill": "^7.12.1",
     "@babel/preset-env": "^7.15.6",
     "@popperjs/core": "^2.9.3",
     "babel-loader": "^8.2.4",
     "babel-plugin-lodash": "^3.3.4",
     "bootstrap": "^5.1.0",
     "chart.js": "^3.5.1",
-    "core-js": "^3.16.4",
+    "core-js": "^3.22.0",
     "file-loader": "^6.2.0",
     "file-saver": "^2.0.5",
     "jquery": "^3.6.0",
-    "just-clone": "^3.2.1",
+    "just-clone": "^5.0.1",
     "normalize.css": "^8.0.1"
   },
   "devDependencies": {
