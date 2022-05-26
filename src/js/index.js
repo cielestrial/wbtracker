@@ -436,10 +436,10 @@ function graphData(ID) {
         scale: {
           y: {
             min: 0,
-            max: 200,
+            max: 100,
             ticks: {
               beginAtZero: true,
-              stepSize: 10
+              stepSize: 5
             }
           }
         },
