@@ -55,7 +55,7 @@ function tableHandler(table) {
     for (let j = 0; j < radioButtonGroup.length; j++) {
       if (radioButtonGroup[j].checked) {
         // debug
-        console.log(`Value: ${+radioButtonGroup[j].value}`);
+        // console.log(`Value: ${+radioButtonGroup[j].value}`);
         // arithmetic
         SurveyReport.surveyValues.push(radioButtonGroup[j].value);
         surveyResult += +radioButtonGroup[j].value;
@@ -65,7 +65,7 @@ function tableHandler(table) {
       }
     }
     // debug
-    console.log(`Sum: ${surveyResult}`);
+    // console.log(`Sum: ${surveyResult}`);
   }
   SurveyReport.surveyResult = surveyResult;
 }
@@ -91,7 +91,7 @@ function getComment() {
  *  - Sepearated by spaces
  * @returns {undefined}
  */
-function getDate() {
+function getSurveyDate() {
   // Get date
   const d = new Date();
   let currentDay, weekStart, weekEnd;
@@ -111,7 +111,7 @@ function getDate() {
   );
   SurveyReport.date.week = `${weekStart.getDate()},${weekEnd.getDate()}`;
   // debug
-  console.log(SurveyReport.date.toString());
+  // console.log(SurveyReport.date.toString());
 }
 
 /**
@@ -135,7 +135,7 @@ window.submitForm = function submitForm(ID) {
   // Get userid
   getUserID();
   // Get date
-  getDate();
+  getSurveyDate();
   // Get depression table info & comment
   SurveyReport.surveyID = ID;
   const table = document.getElementById("SurveyTable");
@@ -240,7 +240,7 @@ function readDataFromStorage(ID) {
       localStorage.key(i).charAt(1) === ";"
     ) {
       let storedData = localStorage.getItem(localStorage.key(i));
-      console.log(storedData);
+      // console.log(storedData);
       parseData(storedData);
       graphData(storedData.charAt(0));
       break;
@@ -290,24 +290,27 @@ function parseData(storedData) {
     highLevel = storedData.split(";");
     key = highLevel[1].split(":");
     for (let x = 2; x < highLevel.length; x++) {
-      newSurveyReport = clone(SurveyReport);
-      newSurveyReport.surveyID = highLevel[0]; // String
-      newSurveyReport.date.year = +key[0]; // Integer
-      newSurveyReport.date.month = +key[1]; // Integer
-
       midLevel = highLevel[x].split(":");
-      newSurveyReport.date.week = midLevel[1]; // String
-      newSurveyReport.date.day = +midLevel[3]; // Integer
-      newSurveyReport.surveyValues = midLevel[4].split(","); // Integer Array
-      /*
+      // console.log(midLevel);
+      for (let y = 2; y < midLevel.length; y += 5) {
+        newSurveyReport = clone(SurveyReport);
+        newSurveyReport.surveyID = highLevel[0]; // String
+        newSurveyReport.date.year = +key[0]; // Integer
+        newSurveyReport.date.month = +key[1]; // Integer
+
+        newSurveyReport.date.week = midLevel[1]; // String
+        newSurveyReport.date.day = +midLevel[y + 1]; // Integer
+        newSurveyReport.surveyValues = midLevel[y + 2].split(","); // Integer Array
+        /*
              for (let y = 0; y < newSurveyReport.surveyValues.length; y++) {
              newSurveyReport.surveyValues[y] = +newSurveyReport.surveyValues[y];
              }
              */
-      newSurveyReport.surveyResult = +midLevel[5]; // Integer
-      newSurveyReport.comment = midLevel[6]; // String
-
-      SurveyReports.push(newSurveyReport);
+        newSurveyReport.surveyResult = +midLevel[y + 3]; // Integer
+        newSurveyReport.comment = midLevel[y + 4]; // String
+        // console.log(newSurveyReport);
+        SurveyReports.push(newSurveyReport);
+      }
     }
   } catch (error) {
     console.error(error);
@@ -330,7 +333,9 @@ function checkStorageSize() {
     }
     _xLen = (localStorage[_x].length + _x.length) * 2;
     _lsTotal += _xLen;
-    console.log(_x.substr(0, 50) + " = " + (_xLen / 1024).toFixed(2) + " KB");
+    console.log(
+      _x.substring(0, 50) + " = " + (_xLen / 1024).toFixed(2) + " KB"
+    );
   }
   console.log("Total = " + (_lsTotal / 1024).toFixed(2) + " KB out of 5000 KB");
 }
@@ -410,6 +415,7 @@ function graphData(ID) {
         return "";
       });
     SurveyReports.forEach(report => {
+      // console.log(report);
       if (report.surveyID === ID) {
         xAxis.push(report.date.day);
         points.push(report.surveyResult);
