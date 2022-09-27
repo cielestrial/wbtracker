@@ -1,6 +1,6 @@
 {
   "name": "wbtracker",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "description": "Mood tracker based on the book \"Feeling Good\".",
   "private": true,
   "scripts": {
