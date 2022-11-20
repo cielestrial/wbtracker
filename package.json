@@ -2,7 +2,7 @@
   "name": "wbtracker",
   "version": "2.2.0",
   "description": "Mood tracker based on the book \"Feeling Good\".",
-  "private": true,
+  "private": false,
   "scripts": {
     "start": "node server.js",
     "dev": "webpack-dev-server --config webpack.dev.js --mode development",
