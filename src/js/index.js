@@ -179,7 +179,7 @@ function saveData(data) {
     let oldData = localStorage.getItem(key);
     // "!" operator returns true if null
     // New entry
-    if (!oldData) {
+    if (oldData !== null) {
       // New month
       if (flag) {
         // Save data to file system
@@ -190,7 +190,7 @@ function saveData(data) {
           blob = new Blob([`${fValue}`], { type: "text/plain;charset=utf-8" });
           saveAs(blob, `${fKey}.txt`);
         }
-        clearLocalStorage();
+        clearLocalStorage(false);
       }
       console.log("creating save for " + data.surveyID);
       localStorage.setItem(key, `${key};${valueRange}:${value}`);
@@ -602,13 +602,15 @@ window.onload = function onloader() {
   loadLocalGraphs();
 };
 
-window.clearLocalStorage = function clearLocalStorage() {
-  let confirmation = confirm(
-    "Are you sure you want to erase browser storage data?"
-  );
-  if (confirmation === true) {
-    localStorage.clear();
-  }
+window.clearLocalStorage = function clearLocalStorage(ask) {
+  if (ask) {
+    let confirmation = confirm(
+      "Are you sure you want to erase browser storage data?"
+    );
+    if (confirmation === true) {
+      localStorage.clear();
+    }
+  } else localStorage.clear();
 };
 
 window.displaySafetyAlert = function displaySafetyAlert() {
