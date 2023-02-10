@@ -7,6 +7,11 @@ and open the template in the editor.
     Created on : May 23, 2020, 4:47:57 a.m.
     Author     : cielestrial
 */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 
 /* align safety */
 body {
@@ -16,60 +21,50 @@ body {
     background-color: black;
 }
 
-.navbar-brand {
+.fit {width: fit-content; height: fit-content;}
+
+.my-brand {
     font-weight: bold;
     color: #ccffff;
-    margin-left: 25px;
-    margin-right: auto;
+    margin: 0rem 1.5rem;
+    line-height: 2rem;
+    font-size: 1.5rem;
 }
 
-ul {
-    list-style-type: none;
-}
-
-li {
-    float: left;
-}
-
-li .nav-link {
+.my-link {
     font-weight: bold;
     color: blanchedalmond;
     text-decoration: none;
-    border-radius: 1em;
+    margin: 0rem 1rem;
+    line-height: 2rem;
+    font-size: 1.25rem;
+  }
+
+.my-link:hover {
+  color: #ccffff;;
 }
 
-li .not-button {
+ .not-button {
     font-weight: bold;
     color: blanchedalmond;
     text-decoration: none;
-    border-radius: 1em;
     background: none;
     border-style: ridge;
     border-color: rgba(255, 235, 205, 0.15);
-    border-radius: 2em;
+    border-radius: 2rem;
+    height: 2em;
+    width: 2em;
 }
 
-li .not-default {
+.not-default {
     font-weight: bold;
     color: blanchedalmond;
     text-decoration: none;
-    border-radius: 1em;
     background: none;
     border: none;
 }
 
-li .not-button:focus {
-    color: blanchedalmond;
-}
-
-li .nav-link:hover{
-    color: #ccffff;
-}
-li .nav-link:hover:not(.active) {    
-    background-color: #333333;
-}
-
-li .active {
+ .active {
     color: #ccffff;
 }
 

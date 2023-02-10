@@ -25,40 +25,29 @@ and open the template in the editor.
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <span class="navbar-brand my-auto h1" id="webName">WB Tracker</span>
-        <div class="collapse navbar-collapse swap" id="navi">
-          <ul class="nav-bar my-auto">
-            <li class="nav-item h5 my-auto">
-              <a class="nav-link" href="/">Home</a>
-            </li>
-            <li class="nav-item my-auto">
-              <a class="nav-link" href="depressionSurvey.html"
-                >Depression Survey</a
-              >
-            </li>
-            <li class="nav-item my-auto">
-              <a class="nav-link" href="anxietySurvey.html">Anxiety Survey</a>
-            </li>
-            <li class="nav-item my-auto">
+        <span class="my-brand">WB Tracker</span>
+        <div class="collapse navbar-collapse swap fit" id="navi">
+          <span class="nav-bar fit">
+            <a class="my-link" href="/">Home</a>
+            <a class="my-link" href="depressionSurvey.html">
+              Depression Survey
+            </a>
+            <a class="my-link" href="anxietySurvey.html">Anxiety Survey</a>
               <input
                 type="button"
                 disabled
-                class="nav-link not-default active"
+                class="my-link not-default active fit"
                 value="Graphs"
               />
-            </li>
-          </ul>
-        </div>
-        <ul class="nav-bar my-auto swap">
-          <li class="nav-item">
+          </div>
+        <span class="nav-bar swap">
             <input
               type="button"
-              class="nav-link my-auto h6 not-button"
+              class="my-link not-button"
               onclick="clearLocalStorage(true)"
               value="C"
             />
-          </li>
-        </ul>
+        </span>
       </div>
     </nav>
 
