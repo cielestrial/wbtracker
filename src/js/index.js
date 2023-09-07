@@ -30,11 +30,11 @@ const SurveyReport = {
     year: 0,
     month: 0,
     week: "",
-    day: 0
+    day: 0,
   },
   surveyValues: [],
   surveyResult: 0,
-  comment: "hello world!"
+  comment: "hello world!",
 };
 let SurveyReports = [],
   CanvasCount = 0;
@@ -179,7 +179,7 @@ function saveData(data) {
     let oldData = localStorage.getItem(key);
     // "!" operator returns true if null
     // New entry
-    if (oldData !== null) {
+    if (oldData === null) {
       // New month
       if (flag) {
         // Save data to file system
@@ -395,7 +395,7 @@ function graphData(ID) {
       "September",
       "October",
       "November",
-      "December"
+      "December",
     ];
     let title;
     if (ID === "D") {
@@ -414,7 +414,7 @@ function graphData(ID) {
       comments = Array.apply(null, Array(31)).map(function (x, i) {
         return "";
       });
-    SurveyReports.forEach(report => {
+    SurveyReports.forEach((report) => {
       // console.log(report);
       if (report.surveyID === ID) {
         xAxis.push(report.date.day);
@@ -429,9 +429,9 @@ function graphData(ID) {
           label: title,
           backgroundColor: "#006ee0",
           borderColor: "#006ee0",
-          data: points
-        }
-      ]
+          data: points,
+        },
+      ],
     };
     Chart.defaults.font.size = 16;
     Chart.defaults.color = "#000000";
@@ -445,9 +445,9 @@ function graphData(ID) {
             max: 100,
             ticks: {
               beginAtZero: true,
-              stepSize: 5
-            }
-          }
+              stepSize: 5,
+            },
+          },
         },
         responsive: true,
         maintainAspectRatio: false,
@@ -551,10 +551,10 @@ function graphData(ID) {
               tooltipEl.style.color = "#cccccc";
               tooltipEl.style.padding = "10px";
               tooltipEl.style.pointerEvents = "none";
-            }
-          }
-        }
-      }
+            },
+          },
+        },
+      },
     });
     SurveyReports = [];
   }
