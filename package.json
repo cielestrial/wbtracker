@@ -2,6 +2,7 @@
   "name": "wbtracker",
   "version": "2.1.5",
   "description": "Mood tracker based on the book \"Feeling Good\".",
+  "homepage": "https://wbtracker.onrender.com",
   "private": true,
   "scripts": {
     "start": "node server.js",
