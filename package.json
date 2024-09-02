@@ -13,7 +13,6 @@
   "author": "cielestrial",
   "license": "ISC",
   "dependencies": {
-    "-": "^0.0.1",
     "@babel/cli": "^7.15.7",
     "@babel/core": "^7.15.0",
     "@babel/preset-env": "^7.15.6",
