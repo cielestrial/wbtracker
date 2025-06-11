@@ -1,6 +1,6 @@
 {
   "name": "wbtracker",
-  "version": "2.1.6",
+  "version": "2.1.7",
   "description": "Mood tracker based on the book \"Feeling Good\".",
   "homepage": "https://wbtracker.onrender.com",
   "private": true,
@@ -36,8 +36,9 @@
     "html-webpack-plugin": "^5.5.0",
     "http-server": "^14.1.0",
     "mini-css-extract-plugin": "^2.6.0",
+    "regenerator-runtime": "^0.14.1",
     "webpack": "^5.72.0",
-    "webpack-cli": "^4.9.2",
-    "webpack-dev-server": "^4.8.1"
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.2.2"
   }
 }
